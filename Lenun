@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lennon Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      background: linear-gradient(to right, #1a1a1a, #4b0082, #8b0000);
+      color: white;
+    }
+    .container {
+      padding: 50px 20px;
+    }
+    .preco {
+      font-size: 26px;
+      margin: 15px 0;
+    }
+    .desconto {
+      text-decoration: line-through;
+      color: #ccc;
+      margin-right: 10px;
+    }
+    .btn {
+      display: inline-block;
+      background: red;
+      color: white;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: darkred;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bem-vindo ao Lennon Hub 🚀</h1>
+    <p class="preco">
+      <span class="desconto">R$ 199,90</span> R$ 99,90
+    </p>
+    <!-- Botão de compra com link -->
+    <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=SEU_LINK_AQUI" 
+       target="_blank" class="btn">
+       Comprar Agora
+    </a>
+  </div>
+</body>
+</html>
